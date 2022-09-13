@@ -15,7 +15,7 @@ variable "allocation_method" {
   description = "Defines the allocation method for this IP address. Possible values are Static or Dynamic."
 }
 variable "environment" {
-  type = string
+  type        = string
   description = "A mapping of tags to assign to the resource."
-  
+
 }
