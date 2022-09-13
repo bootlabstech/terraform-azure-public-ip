@@ -15,7 +15,7 @@ resource "azurerm_public_ip" "public_ip" {
 }
 resource "azurerm_management_lock" "rglock" {
   name       = "resource-group-level"
-  scope      = var.resource_group_name
+  scope      = var.resourcename
   lock_level = "ReadOnly"
   notes      = "This Resource Group is Read-Only"
 }
