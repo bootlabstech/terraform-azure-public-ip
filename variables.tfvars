@@ -1,5 +1,0 @@
-resourcename      = "public-test"
-publicname        = "publicname123"
-location          = "South India"
-allocation_method = "Static"
-environment       = "production"
