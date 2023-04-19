@@ -17,3 +17,7 @@ variable "resource_group_name" {
   description = " The name of the Resource Group where this Public IP should exist."
   type        = string
 }
+variable "sku" {
+  description = " The name of the Resource Group where this Public IP should exist."
+  type        = string
+}
