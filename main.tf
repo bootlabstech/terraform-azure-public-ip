@@ -4,4 +4,9 @@ resource "azurerm_public_ip" "public_ip" {
   location            = var.location
   allocation_method   = var.allocation_method
   sku                 = var.sku
+  lifecycle {
+    ignore_changes = [
+      tags,
+    ]
+  }
 }
